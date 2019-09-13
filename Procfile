@@ -1,1 +1,1 @@
-web: gunicorn lstagram.wsgi --log-file--
+web: gunicorn mydjango.wsgi --log-file--
