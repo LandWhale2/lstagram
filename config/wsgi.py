@@ -16,6 +16,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 application = get_wsgi_application()
 
 
-from whitenoise.storage.CompressedManifestStaticFilesStorage
 
-application = DjangoWhiteNoise(application)
