@@ -1,1 +1,1 @@
-web: gunicorn lstagram.wsgi
+web: gunicorn wsgi.py
